@@ -4,8 +4,8 @@ pipelineJob('example') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://gitlab.com/d44/jenkins.git')
-                        'credentialsId'('GitUSer')
+                        'url'('https://github.com/RAMKUMAR-devops/jenkins.git')
+                        'credentialsId'('GitUser1')
                     }
                 }
                 'branches' {

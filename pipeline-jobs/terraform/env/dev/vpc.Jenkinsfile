@@ -7,7 +7,7 @@ pipeline {
 
     stage('Clone Terraform Repository') {
       steps {
-        git credentialsId: 'GitUser1', url: 'https://github.com/RAMKUMAR-devops/jenkins.git'
+        git credentialsId: 'GitUser', url: 'https://gitlab.com/d44/terraform.git'
       }
     }
 
@@ -34,3 +34,4 @@ pipeline {
   } //post
 
 } // pipeline
+
